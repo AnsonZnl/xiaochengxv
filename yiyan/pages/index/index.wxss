@@ -1,0 +1,14 @@
+/**index.wxss**/
+.title{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.from{
+  float: right;
+}
+.Hclick{
+  width: 90%;
+  position: absolute;
+  top: 13rem;
+  left: 5%;
+}

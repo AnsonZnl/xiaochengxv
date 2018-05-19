@@ -1,0 +1,12 @@
+<view class='container'>
+<view class='title'>{{title}}</view>
+<view>
+  <text>
+    {{list.hitokoto}}
+  </text>  
+  <text class='from'>
+  『{{list.from}}』
+  </text>
+</view>   
+<button class='Hclick' bindtap="Hclick"> {{Hclick}} </button>
+</view>
