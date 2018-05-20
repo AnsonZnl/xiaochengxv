@@ -1,12 +1,14 @@
-<view class='container'>
-<view class='title'>{{title}}</view>
-<view>
-  <text>
+
+<image src='http://p0bnwspy9.bkt.clouddn.com/bg.jpg'></image>
+
+ <view class='container'> 
+<view class='Htext'>
+  <text class='hitokoto'>
     {{list.hitokoto}}
   </text>  
-  <text class='from'>
-  『{{list.from}}』
-  </text>
+  <view class='from'>
+  -『{{list.from}}』
+  </view>
 </view>   
 <button class='Hclick' bindtap="Hclick"> {{Hclick}} </button>
-</view>
+ </view> 

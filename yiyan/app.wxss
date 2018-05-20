@@ -1,5 +1,5 @@
 /**app.wxss**/
-.container {
+.container{
   width: 90%;
   margin: auto;
-} 
+}
