@@ -1,14 +1,14 @@
-
-<image src='http://p0bnwspy9.bkt.clouddn.com/bg.jpg'></image>
-
- <view class='container'> 
-<view class='Htext'>
-  <text class='hitokoto'>
-    {{list.hitokoto}}
-  </text>  
-  <view class='from'>
-  -『{{list.from}}』
+<image src='http://p0bnwspy9.bkt.clouddn.com/xcx_yiyan_bg.jpg'></image>
+<view class='container'>
+  <view class='Htext'>
+    <text class='hitokoto'>
+    <text class='textLeft'>『</text> <text class='hitokotoText'>{{list.hitokoto}}</text>
+    <text class='textRight'>』</text>
+    </text>
+    <text>\n</text>
+    <view class='from'>
+      -『{{list.from}}』
+    </view>
   </view>
-</view>   
-<button class='Hclick' bindtap="Hclick"> {{Hclick}} </button>
- </view> 
+  <button class='Hclick' bindtap="Hclick"> {{Hclick}} </button>
+</view>

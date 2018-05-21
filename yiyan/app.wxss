@@ -3,3 +3,11 @@
   width: 90%;
   margin: auto;
 }
+.textRight{
+  display: block;
+  text-align: right;
+}
+.textLeft{
+  display: block;
+  text-align: left;
+}
